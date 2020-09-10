@@ -1,5 +1,5 @@
 {
-    "name": "qlick/laravel-metable",
+    "name": "plank/laravel-metable",
     "description": "A package for attaching arbitrary data to Eloquent models",
     "type": "library",
     "license": "MIT",
@@ -15,15 +15,14 @@
         }
     },
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=7.3.0",
         "ext-json": "*",
-        "illuminate/support": "^5.6|^6.0|^7.0|^8.0",
-        "illuminate/database": "^5.6|^6.0|^7.0|^8.0"
+        "illuminate/support": "^8.0",
+        "illuminate/database": "^8.0"
     },
     "require-dev": {
-        "laravel/legacy-factories": "^1.0",
-        "orchestra/testbench": "^3.3|^4.0|^5.0|^6.0",
-        "phpunit/phpunit": "^8.0|>=9.0 <9.3",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3",
         "php-coveralls/php-coveralls": "^2.1"
     },
     "autoload-dev":{
